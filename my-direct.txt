@@ -10,6 +10,7 @@ payload:
 # 3. IP 段匹配（请务必注意掩码正确性，如 /24 或 /16）
 #  - IP-CIDR,59.232.10.0/24,no-resolve
   - IP-CIDR,59.232.0.0/16,no-resolve
+  - IP-CIDR,47.106.0.0/16,no-resolve
 
   # 4. 本地回环地址（新增）
   - DOMAIN,localhost
